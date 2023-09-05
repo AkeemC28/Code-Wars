@@ -17,5 +17,5 @@
 function litres(time) {
   const litres = 0.5
   const totalWater = litres * time
-  return Math.floor(litres * time);
+  return Math.floor(totalWater);
 }

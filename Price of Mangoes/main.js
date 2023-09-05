@@ -26,3 +26,13 @@ function mango(quantity, price) {
 //    return price * (mangoes.length)
 //   //   didn't need to do length - 1
 //   }
+
+function mango(quantity, price){
+    let mangoPack = []
+  
+    for(let i = 1; i <= quantity; i++){
+      if(i % 3 === 0){
+        mangoPack.push(i)
+      }
+    } return (quantity - mangoPack.length) * price
+  }
